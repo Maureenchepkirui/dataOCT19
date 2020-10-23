@@ -10,6 +10,20 @@ person_name = str(input('What is your name'))
 body_mass_index = weight/(height * height)
 print('Your BMI is ', body_mass_index, ' Your Name was ',person_name)
 
+# concatenation: mixing a 'string' and a variable
+# Decision making/Control Structures
+# we use if, if else, elif
+if body_mass_index < 17.5:
+    print('Underweight')
+
+elif body_mass_index >= 17.5 and body_mass_index < 22.5:
+    print('Normal')
+
+else:
+    print('Overweight') # above 22.5
+
+
+
 
 
 
