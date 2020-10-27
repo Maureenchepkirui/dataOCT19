@@ -15,5 +15,11 @@ print('My budget is ', budgets[3])
 cars = ('Toyota','Nissan','BMW','Honda','Volvo')
 print(cars)
 
+cost = (700000,850000,1000000,450000)
+print(cost)
+# slicing tuple
+print(' A ', cars[1], 'will be valued at ', cost[1], 'KES')
+print('I will buy a ', cars[3], 'at', cost[0], 'KES')
+
 
 
