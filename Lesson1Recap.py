@@ -14,6 +14,3 @@ print('Your Names was ', employee_name)
 print('Your simple interest is ', answer, 'KES')
 
 
-
-
-
