@@ -23,6 +23,11 @@ else:
     print('Overweight') # above 22.5
 
 
+# Mon: 8.00 - 11.00, Mon: 2 - 4
+# Wed: 8.00 = 11.00  Mon - 2 - 4
+#
+
+
 
 
 
