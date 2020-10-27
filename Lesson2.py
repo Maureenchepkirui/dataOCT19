@@ -19,7 +19,12 @@ cost = (700000,850000,1000000,450000)
 print(cost)
 # slicing tuple
 print(' A ', cars[1], 'will be valued at ', cost[1], 'KES')
-print('I will buy a ', cars[3], 'at', cost[0], 'KES')
+print('I will buy a ', cars[3], '@', cost[0], 'KES')
 
+# 1st difference - list uses [], tuple uses ()
+# 2nd difference - lists can be updated - mutable, tuple cannot be updated - immutable
+counties.append('Kajiado')
+counties.remove('Nakuru')
+print(counties)
 
 
