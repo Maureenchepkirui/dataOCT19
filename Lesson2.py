@@ -27,4 +27,19 @@ counties.append('Kajiado')
 counties.remove('Nakuru')
 print(counties)
 
+# You want to send data somewhere, and it can't be added or removed in transit-tuple
+
+# What is a dictionary  - its like an object.
+phone = {'name':'Nokia',
+         'cost':10000,
+         'memory': '2GB',
+         'OS': 'Android',
+         'Version':5.0}
+
+print(phone)
+# use the key to retrieve
+print(phone['name'])
+
+
+
 
