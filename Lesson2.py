@@ -38,7 +38,16 @@ phone = {'name':'Nokia',
 
 print(phone)
 # use the key to retrieve
-print(phone['name'])
+print(phone['Version'])
+
+
+person = {'john':40, 'peter':45}
+print(person['susan'])
+# exeption - something unusual that stops the program giving output
+
+
+
+
 
 
 
