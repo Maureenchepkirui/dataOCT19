@@ -42,7 +42,12 @@ def payroll(basic_salary,transport, water):
 payroll(basic_salary=30000,transport=4500,water=1500)
 payroll(basic_salary=28000, transport=3500,water=2500)
 payroll(water=2300, transport=4500,basic_salary=75000)
-
+try:
+   payroll(basic_salary=80000)
+except TypeError as type_error:
+    print('Error Occured ', type_error)
+except:
+    print('Something else is wrong')
 
 
 
